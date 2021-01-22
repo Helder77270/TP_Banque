@@ -8,7 +8,14 @@ L'intéraction avec le contrat fonction mais l'update du front après coup non
 Lancer le projet
 === 
 
-git pull "https://github.com/Helder77270/TP_Banque"
-npm install
-cd front
-npm start
+- git pull "https://github.com/Helder77270/TP_Banque"
+- npm install
+- cd front
+- npm start
+
+--
+
+Dans une autre console après avoir démarré Ganache
+
+- truffle console --network development
+- truffle migrate [--reset] peut être une option pour forcer les contrats à se mettre à jour
